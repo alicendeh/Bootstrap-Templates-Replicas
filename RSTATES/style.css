@@ -1,0 +1,278 @@
+.body {
+  background-color: rgb(245, 245, 245);
+  overflow-x: hidden;
+}
+.myBtn {
+  background-color: #ec6f50;
+}
+.ww {
+  width: 100%;
+}
+.aa {
+  width: 100%;
+}
+/* .nav-bckg {
+  background-color: rgba(133, 190, 190, 0.1);
+  margin-right: -30px;
+  margin-top: -30px;
+} */
+.hometxt {
+  color: #ec6f50 !important;
+}
+.myNav.active {
+  background-color: wheat;
+}
+.writerDiv img {
+  border-radius: 50px;
+}
+.section-1 {
+  height: 8vh;
+}
+h2.txt {
+  color: #ec6f50 !important;
+}
+.imgDiv {
+  background: url('assets/img.jpeg') no-repeat center center;
+  width: 45vw;
+  height: 60vh;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+.greyContent {
+  background-color: #0d0d1f;
+  width: 80%;
+  margin-right: 288px;
+}
+
+.whiteContent button {
+  color: white;
+  background-color: #ec6f50 !important;
+  width: 70%;
+}
+
+.btntxt {
+  background-color: #ec6f50 !important;
+  color: white;
+}
+
+.img2 {
+  background: url('assets/secongImg.jpeg') no-repeat center center;
+  width: 40vw;
+  height: 55vh;
+  background-size: cover;
+}
+
+.arrow {
+  color: #ec6f50;
+}
+
+.img1 {
+  background: url('assets/p4.jpg') no-repeat center center;
+  width: 30vw;
+  height: 55vh;
+  background-size: cover;
+  position: relative;
+}
+.img21 {
+  background: url('assets/p1.jpg') no-repeat center center;
+  width: 30vw;
+  height: 55vh;
+  background-size: cover;
+  position: relative;
+}
+.img3 {
+  background: url('assets/p2.jpg') no-repeat center center;
+  width: 30vw;
+  height: 55vh;
+  background-size: cover;
+  position: relative;
+}
+.img4 {
+  background: url('assets/p3.jpg') no-repeat center center;
+  width: 30vw;
+  height: 55vh;
+  background-size: cover;
+  position: relative;
+}
+.img5 {
+  background: url('assets/p5.jpg') no-repeat center center;
+  width: 40vw;
+  height: 54vh;
+  background-size: cover;
+  position: relative;
+}
+.txt {
+  position: absolute;
+  left: 75px;
+  color: #ec6f50;
+  border: 1px sild white;
+  background-color: rgb(245, 245, 245);
+  font-size: 20px;
+  padding: 17px;
+  left: 0;
+  margin-top: -52px;
+}
+
+.dollar {
+  color: #ec6f50;
+  font-size: 25px;
+}
+
+.userDiv {
+  border-radius: 50px;
+  background: url('assets/footerImg.jpg') no-repeat center center;
+  width: 98%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.profile {
+  position: absolute;
+  left: 75px;
+  color: #585555;
+  border: 1px sild white;
+  background-color: rgb(245, 245, 245);
+  font-size: 20px;
+  padding: 17px;
+  left: 0;
+  margin-top: -52px;
+}
+
+.section-9 .footer {
+  background: url('assets/footerImg.jpg') no-repeat center center;
+  width: 98%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.div-1 {
+  position: absolute;
+  top: 0;
+}
+
+.formContainer {
+  background-color: white;
+  border: 1px solid white;
+  padding: 17px;
+  margin: 18px;
+  width: 60%;
+  text-align: center;
+}
+
+.formContainer input {
+  background-color: rgb(202, 199, 199);
+  color: whitesmoke;
+  padding: 17px;
+  width: 90%;
+  margin: 20px;
+}
+
+.formContainer textarea {
+  background-color: rgb(202, 199, 199);
+  color: whitesmoke;
+  padding: 40px;
+  width: 90%;
+  margin: 20px;
+}
+
+.formContainer button {
+  width: 90%;
+  background-color: #ec6f50;
+  color: white;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+}
+
+.FI {
+  color: wheat;
+  padding: 8px;
+}
+
+.txtColor {
+  color: wheat;
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 600px) {
+  .greyContent {
+    width: 100%;
+  }
+  .pTag,
+  .prop-type,
+  .imgDiv {
+    display: none !important;
+  }
+  .greyContent p:first-child {
+    font-size: 20px;
+  }
+  .whiteContent button {
+    color: white;
+    background-color: #ec6f50 !important;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+  }
+  .whiteContent p,
+  .loc {
+    font-size: 15px;
+  }
+  .arrowsDiv {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .imgDiv {
+    width: 640%;
+    margin-top: 8px;
+  }
+  .section-3 p {
+    font-size: 21px;
+    padding-top: 6px;
+  }
+  .section-4 p {
+    font-size: 18px;
+  }
+
+  .section-5 p {
+    font-size: 20px;
+  }
+  .arrowsDiv {
+    size: 21ch;
+  }
+  .img1,
+  .img21 {
+    width: 90vw;
+  }
+  .div3,
+  .sophia {
+    display: none !important;
+  }
+  .section-8 p {
+    font-size: 20px;
+  }
+  .formContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1830px) {
+  .img1,
+  .img3 {
+    width: 100%;
+  }
+  .img21 {
+    width: 85%;
+  }
+  .section-6 p,
+  .section-7 p {
+    font-size: 20px;
+  }
+  .img5 {
+    width: 97%;
+  }
+}
