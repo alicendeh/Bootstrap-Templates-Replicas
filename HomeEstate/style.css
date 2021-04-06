@@ -1,0 +1,249 @@
+body {
+  background-color: rgba(218, 246, 250, 0.315);
+}
+
+.iconDiv {
+  color: rgb(10, 10, 184);
+}
+
+.txtComp {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+.txtComp h6,
+i {
+  color: rgb(149, 142, 142);
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: rgb(13, 37, 177);
+}
+
+.input {
+  background-color: rgba(155, 218, 255, 0.274);
+  border-radius: 50px;
+
+  border: none;
+}
+
+.span1 {
+  font-weight: bold;
+}
+.span2 {
+  color: blue;
+}
+html {
+  overflow-x: hidden;
+}
+.myCard {
+  box-shadow: 1px 2px 5px rgb(151, 145, 145);
+  border-radius: 20px;
+  width: 400px;
+}
+
+.imgDiv {
+  width: 95%;
+  justify-content: center;
+  align-self: center;
+}
+
+.imgDiv img {
+  border-radius: 18px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(14, 211, 211, 0.801);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgba(14, 27, 211, 0.801);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.map {
+  width: 35vw;
+  height: 75vh;
+  margin-top: -38px;
+}
+
+.searchComp {
+  margin-left: 3% !important;
+}
+
+.searchbox {
+  margin-left: 4% !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .sidenav,
+  .bottomContent,
+  .slider {
+    display: none;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .searchbox input {
+    margin-left: -34px;
+    margin-top: 8px;
+    width: 60vw;
+  }
+  .has-search .form-control-feedback {
+    position: absolute;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3.5rem;
+    left: -14px;
+    pointer-events: none;
+    color: rgb(13, 37, 177);
+  }
+  .atag {
+    display: none;
+  }
+  .pttag {
+    margin-top: -50px;
+    margin-left: -60px;
+  }
+  .cards {
+    margin-left: -40px;
+  }
+  .map {
+    width: 320px;
+    height: 50vh;
+    margin-top: -38px;
+  }
+  .myCard {
+    box-shadow: 1px 2px 5px rgb(151, 145, 145);
+    border-radius: 20px;
+    width: 360px;
+  }
+
+  .imgDiv {
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+  }
+}
+.first {
+  color: transparent;
+}
+.attention {
+  border: 1px solid white;
+  background-color: white;
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgb(189, 187, 187);
+}
+.bottomImg {
+  background: url('assets/bottomImg.png') no-repeat center center;
+  width: 10vw;
+  height: 40vh;
+  background-size: cover;
+}
+/* The sidebar menu */
+
+.sidenav {
+  height: 60%;
+  width: 160px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav p {
+    font-size: 18px;
+  }
+}
